@@ -1,0 +1,14 @@
+{
+  "name": "prueba-frontend",
+  "version": "1.0.0",
+  "description": "![Vista previa del diseño para la prueba de frontend lo encontrará en](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
