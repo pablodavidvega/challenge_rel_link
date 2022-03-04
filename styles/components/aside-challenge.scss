@@ -1,0 +1,36 @@
+
+.boost-link{
+  background-image: url(../images/bg-boost-mobile.svg);
+  background-repeat: no-repeat; 
+  background-size: 100%; 
+  background-color: $darkviolet; 
+  padding: 94px 0px;
+  text-align: center;
+  @media  screen and (min-width: $tablet){
+  background-image: url(../images/bg-boost-desktop.svg);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%; 
+  padding-bottom: 58px;
+  padding-top: 68px; 
+  }
+  h3 {
+    color:$white;
+    font-weight: bold;
+    margin-bottom: 26px;
+  @media  screen and (min-width: $tablet){
+    font-size: 41px;
+  }
+  }
+  button {
+    background-color:$primary;
+    border:none;
+    color:$white;
+    padding: 13px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 40px;
+    &:hover{
+    background-color:hsla(180, 66%, 49%, 0.9);
+    }
+  }
+}

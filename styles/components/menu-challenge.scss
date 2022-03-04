@@ -1,0 +1,80 @@
+.navbar-text {
+  margin-top: 30px;
+  width: 98%;
+  @media screen and (min-width: $tablet){   
+    display:flex;
+    background-color: $white!important;
+  }
+  .logo-btn{
+    display: flex;
+    justify-content:space-between;
+    @media screen and (min-width: $tablet){   
+      margin-bottom: 19px;
+      margin-left: 10%;
+      margin-right: 4%;
+    }
+  }
+  .list{  
+    background-color: $darkviolet;
+    text-align: center;
+    border-radius: 10px;
+    @media screen and (min-width: $tablet){   
+      background-color: $white;
+      li{
+        padding: 14px;
+        a{
+          &:hover{
+            color: $verydarkviolet!important;
+          }
+        }
+      }
+    }
+    .links{
+      color:$white;
+      font-size:18px;
+      font-weight: bolder;
+      padding: 20px 0;
+      @media screen and (min-width: $tablet){   
+        color:$gray!important;
+        font-size: 15px; 
+      }
+    }
+    .line-hr{
+      background-color: rgb(100, 75, 109);
+      width: 89%;
+      height: 1px;
+      margin-left: auto;
+      margin-right: auto;
+      @media screen and (min-width: $tablet){   
+        display:none;
+      } 
+    }
+    .login-btn{
+      padding-bottom: 40px;
+    @media screen and (min-width: $tablet){   
+        display:flex;
+        position: absolute;
+        margin-left: 49%;
+      }
+    }
+    .list-sign-up {
+      background-color:$primary;
+      border:none;
+      color:$white;
+      padding: 4% 32%;
+      font-size: 18px;
+      font-weight: 700;
+      border-radius: 40px;
+      @media screen and (min-width: $tablet){   
+        padding: 4px 18px;
+        margin-top: 13px;
+        &:hover{
+          background-color:aquamarine;
+        }
+      }
+    }
+  }       
+}
+
+
+

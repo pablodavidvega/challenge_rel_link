@@ -1,141 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
-  <link rel="stylesheet" href="styles/styles.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="menu">
-    <nav class="navbar navbar-text navbar-expand-lg navbar-light bg-light">
-      <div class="logo-btn">
-        <a class="navbar-logo logo-svg" href="#"> <img src="images/logo.svg" alt=""></a>
-        <button class="navbar-toggler btn-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> 
-      </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="">
-          <ul class="navbar-nav mr-auto list">
-            <li class="nav-item bord">
-              <a class="nav-link links" href="#">Features</a>
-            </li>
-            <li class="nav-item bord">
-              <a class="nav-link links" href="#"> Pricing</a>
-            </li>
-            <li class="nav-item bord">
-              <a class="nav-link links" href="#">Resources</a>
-            </li>
-            <div class="line-hr">
-              <hr>
-            </div>
-            <li class="nav-item bord">
-              <a class="nav-link links" href="#">login</a>
-            </li>
-            <li class="nav-item bord">
-              <button  class="list-sign-up" type="button">sign up</button>
-            </li>
-          </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <div class="menu">
+      <nav class="navbar navbar-text navbar-expand-lg navbar-light bg-light">
+        <div class="logo-btn">
+          <a class="navbar-logo logo-svg" href="#"> <img src="images/logo.svg" alt=""></a>
+          <button class="navbar-toggler btn-menu" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-      </div>
-    </nav>
-  </div>
-    <!-- <div class="grid-container"> -->
-      <div class="image-1"><img src="images/illustration-working.svg" width="125%" alt=""></div>
-    <!-- </div> -->
-    <div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="">
+            <ul class="navbar-nav mr-auto list">
+              <li class="nav-item bord">
+                <a class="nav-link links" href="#">Features</a>
+              </li>
+              <li class="nav-item bord">
+                <a class="nav-link links" href="#"> Pricing</a>
+              </li>
+              <li class="nav-item bord">
+                <a class="nav-link links" href="#">Resources</a>
+              </li>
+              <div class="line-hr">
+                <hr>
+              </div>
+              <div class="login-btn">
+                <li class="nav-item bord bord-item">
+                  <a class="nav-link links log-in" href="#">login</a>
+                </li>
+                <li class="nav-item bord bord-btn">
+                  <button class="list-sign-up" type="button">sign up</button>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="image-1"><img src="images/illustration-working.svg" width="95%" alt=""></div>
+    <div class="">
       <div class="title">
         <h1>More than just shorter links</h1>
       </div>
       <p class="paragraph">
-        Build your brand’s recognition and get detailed insights 
+        Build your brand’s recognition and get detailed insights
         on how your links are performing.
       </p>
       <div class="btn-started">
-        <button type="button" >Get Started</button>
+        <button type="button">Get Started</button>
       </div>
-      <section>
-        <div 
-          class="shorten-cont">  <img src="images/bg-shorten-mobile.svg" alt="">
+    </div>
+    <div class="form-section">
+      <div class="form-shorten">
+        <form>
+          <input type="text" id="shorten" name="shorten" placeholder="Shorten a link here...">
+          <label for="shorten">Please add a link</label>
+          <button id="shorten-it" class="shorten-it"  type="button">Shorten it!</button>
+        </form>
+      </div>
+    </div>
+     <p id="message"></p>
+    <section class="title-section">
+      <div class="title-paragraph">
+        <div class="title-advanced">
+          <h2>Advanced Statistics</h2>
         </div>
-        <div class="form-shorten">
-          <form >
-            <input type="text" id="shorten" name="shorten" placeholder="Shorten a link here..."><br>
-            <label for="shorten">Please add a link</label><br>
-            <button class="shorten-it" type="button" >Shorten it!</button>
-          </form>
+        <div class="p-advanced">
+          <p>
+            Track how your links are performing across the web with our
+            advanced statistics dashboard.
+          </p>
         </div>
-      </section>
-    
-  </div>
+      </div>
+      <div class="flex-cards">
+        <div class="card card-1">
+          <div class="image-card">
+           <img src="../images/icon-brand-recognition.svg" class="card-img-top" alt=""> 
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Brand Recognition</h5>
+            <p class="card-text">Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.</p>
+          </div>
+        </div>
+        <div class="vl"></div>
+        <div class=" card card-2">
+          <div class="image-card">
+            <img src="../images/icon-detailed-records.svg" class="card-img-top" alt="">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"> Detailed Records</h5>
+            <p class="card-text">
+              Gain insights into who is clicking your links. Knowing when and where
+              people engage with your content helps inform better decisions.
+            </p>
+          </div>
+        </div>
+        <div class="card card-3">
+          <div class="image-card">
+            <img src="../images/icon-fully-customizable.svg" class="card-img-top" alt="">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Fully Customizable</h5>
+            <p class="card-text">
+              Improve brand awareness and content discoverability through customizable
+              links, supercharging audience engagement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside class="boost-link">
+      <h3 class="boost-link-title">Boost your links today</h3>
+      <button class="boost-link-btn" type="button">Get Started</button>
+    </aside>
+    <footer class="footer-1">
+      <div class="foot-cont">
+        <div class="sortly-footer">
+          <img src="images/logo.svg" alt="">
+        </div>
+        <ul class="footer-list">
+          <li><a class="footer-subtitle" href="#">Features</a></li>
+          <br>
+          <li> <a class="sub-title-1-2" href="#">Link Shortening</a> </li>
+          <li> <a class="sub-title-1-2" href="#">Branded Links</a> </li>
+          <li> <a class="sub-title-1-2" href="#">Analytics</a> </li>
+        </ul>
+        <ul>
+          <li><a class="footer-subtitle" href="#">Resources</a></li>
+          <br>
+          <li> <a class="sub-title-1-2" href="#">Blog</a> </li>
+          <li> <a class="sub-title-1-2" href="#">Developers</a> </li>
+          <li> <a class="sub-title-1-2" href="#">Support</a> </li>
+        </ul>
+        <ul>
+          <li><a class="footer-subtitle" href="#">Company</a></li>
+          <br>
+          <li> <a class="sub-title-1-2" href="#">About</a> </li>
+          <li> <a class="sub-title-1-2" href="#">Our Team</a> </li>
+          <li> <a class="sub-title-1-2" href="#">Careers</a> </li>
+          <li> <a class="sub-title-1-2" href="#">Contact</a> </li>
+        </ul>
+        <div class="icons">
+          <img class="image-icon" src="../images/icon-facebook.svg" alt="">
+          <img src="../images/icon-twitter.svg" alt="">
+          <img src="../images/icon-pinterest.svg" alt="">
+          <img src="../images/icon-instagram.svg" alt="">
+        </div>
+      </div>
+    </footer>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Pablo David Vega Moreno</a>.
+    </div>
 
-  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous">
+    </script>
+    <script src="challenge.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous">
+    </script>
+  </body>
 
-
-  
-
-
-  
-
-  
-<div class="end"
-
-  Advanced Statistics
-
-  Track how your links are performing across the web with our 
-  advanced statistics dashboard.
-
-  Brand Recognition
-
-  Boost your brand recognition with each click. Generic links don’t 
-  mean a thing. Branded links help instil confidence in your content.
-
-  Detailed Records
-
-  Gain insights into who is clicking your links. Knowing when and where 
-  people engage with your content helps inform better decisions.
-
-  Fully Customizable
-
-  Improve brand awareness and content discoverability through customizable 
-  links, supercharging audience engagement.
-
-  Boost your links today
-
-  Get Started
-
-  Features
-
-  Link Shortening
-  Branded Links
-  Analytics
-
-  Resources
-
-  Blog
-  Developers
-  Support
-
-  Company
-
-  About
-  Our Team
-  Careers
-  Contact
-  
-</div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
 </html>
+
+

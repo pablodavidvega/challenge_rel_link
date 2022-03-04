@@ -1,0 +1,156 @@
+.title-section{
+  background-color: #e0dbdbd8;
+  text-align: center;
+  margin-top: 10%;
+  padding-bottom: 80px;
+ @media screen and (min-width: $tablet){
+    //display: flex;
+    margin-top: initial;
+    width: 100%;
+  }
+  @media screen and (min-width : $tablet){
+    .title-paragraph{
+      display: inline-block;
+    }
+  }
+  .title-advanced{
+    padding-top:22%;
+    h2{
+      font-size: 29px;
+      font-weight:bolder;
+      @media screen and (min-width : $tablet){
+        font-size: 40px;
+      }
+    }
+  }
+  .p-advanced{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bolder;
+    padding-top: 6px;
+    padding-bottom: 70px;
+    color:$gray;
+     p{
+     @media screen and (min-width : $tablet){
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom:40px;
+      }
+    }
+  }
+  @media screen and (min-width : $tablet){
+    .flex-cards{
+      display:flex;
+      width: 68%;
+      margin-left: 14%;
+    }
+  }
+  .card-1{
+    width: 90%;
+    margin: 0 auto;
+    @media screen and (min-width : $tablet){
+      margin-left:4%; 
+      height: min-content;
+    }
+    .image-card{
+      background-color: $darkviolet;
+      border-radius: 50%;
+      width: 25%;
+      padding: 6%;
+      margin: 0 auto;
+      margin-top: -45px;
+      position: relative;
+    }
+    .card-body{
+      margin-top: 19px; 
+      .card-title{
+        font-weight: bolder;
+        font-size: x-large;
+      }
+      .card-text{
+        width: 86%;
+        margin: 0 auto;
+        font-weight: 700;
+        color:$gray;
+      }
+    }
+  }
+  .card-2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    @media screen and (min-width : $tablet){
+      display:flex;
+      margin-top: 44px;
+      margin-bottom: auto;
+      margin-left:4%; 
+
+    }
+    .image-card{
+      background-color: $darkviolet;
+      border-radius: 50%;
+      width: 25%;
+      padding: 6%;
+      margin: 0 auto;
+      margin-top: -45px;
+      position: relative;
+    }
+    .card-body{
+      margin-top: 19px; 
+      .card-title{
+        font-weight: bolder;
+        font-size: x-large;
+      }
+      .card-text{
+        width: 86%;
+        margin: 0 auto;
+        font-weight: 700;
+        color:$gray;
+      }
+    }
+  }
+  .card-3{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    @media screen and (min-width : $tablet){
+      margin-left:4%; 
+      height: min-content;
+      //margin-top:53px;
+    }
+    .image-card{
+      background-color: $darkviolet;
+      border-radius: 50%;
+      width: 25%;
+      padding: 6%;
+      margin: 0 auto;
+      margin-top: -45px;
+      position: relative;
+    }
+    .card-body{
+      margin-top: 19px; 
+      .card-title{
+        font-weight: bolder;
+        font-size: x-large;
+      }
+      .card-text{
+        width: 86%;
+        margin: 0 auto;
+        font-weight: 700;
+        color:$gray;
+      }
+    }
+  }
+  .vl {
+    border-left: 6px solid #0284ff;
+    height: 430px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    @media screen and (min-width : $tablet){
+      width:49px;
+      transform: rotate(90deg);
+    }
+  }
+}
+
